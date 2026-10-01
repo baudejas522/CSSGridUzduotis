@@ -1,0 +1,232 @@
+ *
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ .container
+ {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #0b1220;
+ }
+
+ .link, .witch, .bald, .cyber, .redDead, .minecraft, .hollow, .stardew, .portral, .action, .rpg, .puzzle, .simulator {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+ /* FOTO */
+ 
+ .link
+ {
+    background-image: url(../assets/img/1\ \(2\).jpg);
+    grid-column: 1;
+    grid-row: 1 / 3;
+ }
+
+ .witch
+ {
+    background-image: url(../assets/img/2.avif);
+ }
+ 
+ .bald
+ {
+    background-image: url(../assets/img/3\ \(2\).jpg);
+
+ }
+ 
+ .cyber
+ {
+    background-image: url(../assets/img/4\ \(2\).jpg);
+ }
+
+ .redDead
+ {
+    background-image: url(../assets/img/5.avif);
+ }
+
+ .minecraft
+ {
+    background-image: url(../assets/img/6.webp);
+ }
+
+.hollow
+{
+    background-image: url(../assets/img/7\ \(2\).jpg);
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.stardew
+{
+    background-image: url(../assets/img/8.png);
+}
+
+.portral
+{
+    background-image: url(../assets/img/9.webp);
+}
+
+.action
+{
+    background-color: purple;
+}
+
+.rpg
+{
+    background-color: green
+}
+
+.simulator
+{
+    background-color: blue;
+}
+
+.puzzle
+{
+    background-color: red;
+}
+
+ /* HEADERIS */
+
+header
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    height: 450px;
+    width: 100%;
+}
+
+main
+{
+    display: grid;
+    gap: 10px;
+}
+
+.mainline
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 150px;
+    
+}
+
+.mainbottom
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    height:310px;
+}
+
+/* FOOTER */
+
+footer
+{
+    display: grid;
+    gap: 10px;
+}
+
+footer nav
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 150px;
+}
+
+/* TEXT STILIUS */
+
+.link, .witch, .bald, .cyber, .redDead, .minecraft,  .hollow, .stardew,.portral, .action, .rpg, .simulator, .puzzle {
+    display: grid;
+    padding: 20px
+}
+
+footer nav
+{
+    display: grid;
+}
+
+.action, .rpg, .simulator, .puzzle
+{
+    display: grid;
+    align-content: end;
+}
+
+footer nav a
+{
+    display: grid;
+    text-decoration: none;
+    font-size: 0.7em;
+    color: rgb(235, 235, 235);
+}
+
+
+.genre
+{
+    font-size: 0.5em;
+    color: rgb(211, 194, 194)
+}
+
+.text
+{
+    font-size: 1.5em;
+    color: white;
+}
+
+.portral > .text
+{
+    color: grey
+}
+
+.witch .genre
+{
+    color: red;
+}
+
+
+/* TEXT LINK STILIUS */
+
+.link .genre 
+{
+    color: yellow;
+}
+
+.link .text 
+{
+    display: grid;
+}
+
+.link h2, p
+{
+    font-size: 1em;;
+}
+
+.viewgame
+{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(236, 195, 58);
+    height: 60px;
+    width: 180px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
